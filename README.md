@@ -1,24 +1,41 @@
-# Getting Started with [Fastify-CLI](https://www.npmjs.com/package/fastify-cli)
-This project was bootstrapped with Fastify-CLI.
+# Desafio de Integração - API de Carrinho (FakeStore)
 
-## Available Scripts
+## ✅ Pré-requisitos
 
-In the project directory, you can run:
+Requisitos necessários para rodar o código
 
-### `npm run dev`
+- **Node.js**
+- **npm**
 
-To start the app in dev mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Instalação
 
-### `npm start`
+Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 
-For production mode
+1.  **Clone o repositório:**
 
-### `npm run test`
+    ```bash
+    git clone https://github.com/Luis-Felipe-N/test-cart
+    ```
 
-Run the test cases.
+2.  **Navegue até o diretório do projeto:**
 
-## Learn More
+    ```bash
+    cd test-cart
+    ```
 
-To learn Fastify, check out the [Fastify documentation](https://fastify.dev/docs/latest/).
-# test-cart
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+## 🏃‍♀️ Como Rodar a Aplicação
+
+```bash
+npm run dev
+```
+
+## ⚙️ Uso da API
+
+Após iniciar o servidor, você pode interagir com a API. O fluxo principal se inicia acessando a rota principal:
+
+`http://localhost:3333/cart`
