@@ -1,7 +1,10 @@
 import fastify from "fastify";
 import { ZodError } from "zod";
+import { cartRoutes } from "./routes/cart.route";
 
 export const app = fastify();
+
+app.register(cartRoutes);
 
 app.setErrorHandler((err, _, reply) => {
   /**
