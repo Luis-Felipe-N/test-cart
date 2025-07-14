@@ -2,6 +2,9 @@ import fastify from "fastify";
 import { ZodError } from "zod";
 import { cartRoutes } from "./routes/cart.route";
 
+/**
+ * Configuração do app fastify, aqui eh onde fica as routes, config do cors e fastify jwt
+ */
 export const app = fastify();
 
 app.register(cartRoutes);
